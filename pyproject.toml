@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ml-internship-interview"
+version = "0.1.0"
+description = ""
+authors = ["François Weber <f.weber@qwant.com>"]
+readme = "README.md"
+packages = [{include = "ml_internship_interview"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.1"
+scikit-learn = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
